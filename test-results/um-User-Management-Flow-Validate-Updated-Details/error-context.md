@@ -1,0 +1,163 @@
+# Page snapshot
+
+```yaml
+- complementary:
+  - navigation "Sidepanel":
+    - link "client brand banner":
+      - /url: https://www.orangehrm.com/
+      - img "client brand banner"
+    - textbox "Search"
+    - button ""
+    - separator
+    - list:
+      - listitem:
+        - link "Admin":
+          - /url: /web/index.php/admin/viewAdminModule
+      - listitem:
+        - link "PIM":
+          - /url: /web/index.php/pim/viewPimModule
+      - listitem:
+        - link "Leave":
+          - /url: /web/index.php/leave/viewLeaveModule
+      - listitem:
+        - link "Time":
+          - /url: /web/index.php/time/viewTimeModule
+      - listitem:
+        - link "Recruitment":
+          - /url: /web/index.php/recruitment/viewRecruitmentModule
+      - listitem:
+        - link "My Info":
+          - /url: /web/index.php/pim/viewMyDetails
+      - listitem:
+        - link "Performance":
+          - /url: /web/index.php/performance/viewPerformanceModule
+      - listitem:
+        - link "Dashboard":
+          - /url: /web/index.php/dashboard/index
+      - listitem:
+        - link "Directory":
+          - /url: /web/index.php/directory/viewDirectory
+      - listitem:
+        - link "Maintenance":
+          - /url: /web/index.php/maintenance/viewMaintenanceModule
+      - listitem:
+        - link "Claim":
+          - /url: /web/index.php/claim/viewClaimModule
+          - img
+          - text: Claim
+      - listitem:
+        - link "Buzz":
+          - /url: /web/index.php/buzz/viewBuzz
+- banner:
+  - heading "Admin" [level=6]
+  - heading "/ User Management" [level=6]
+  - link "Upgrade":
+    - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+    - button "Upgrade"
+  - list:
+    - listitem:
+      - img "profile picture"
+      - paragraph: FirstNameTest LastNameTest
+      - text: 
+  - navigation "Topbar Menu":
+    - list:
+      - listitem: User Management 
+      - listitem: Job 
+      - listitem: Organization 
+      - listitem: Qualifications 
+      - listitem:
+        - link "Nationalities":
+          - /url: "#"
+      - listitem:
+        - link "Corporate Branding":
+          - /url: "#"
+      - listitem: Configuration 
+      - button ""
+- heading "System Users" [level=5]
+- button ""
+- separator
+- text: Username
+- textbox
+- text: User Role -- Select --  Employee Name
+- textbox "Type for hints..."
+- text: Status -- Select -- 
+- separator
+- button "Reset"
+- button "Search"
+- button " Add"
+- separator
+- text: (5) Records Found
+- table:
+  - rowgroup:
+    - row " Username  User Role  Employee Name  Status  Actions":
+      - columnheader "":
+        - checkbox ""
+        - text: 
+      - columnheader "Username "
+      - columnheader "User Role "
+      - columnheader "Employee Name "
+      - columnheader "Status "
+      - columnheader "Actions"
+  - rowgroup:
+    - row " Admin Admin FirstNameTest LastNameTest Enabled  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "Admin"
+      - cell "Admin"
+      - cell "FirstNameTest LastNameTest"
+      - cell "Enabled"
+      - cell " ":
+        - button ""
+        - button ""
+    - row " Charles49 Admin Charles Carter Enabled  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "Charles49"
+      - cell "Admin"
+      - cell "Charles Carter"
+      - cell "Enabled"
+      - cell " ":
+        - button ""
+        - button ""
+    - row " Charles55 Admin Charles Carter Enabled  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "Charles55"
+      - cell "Admin"
+      - cell "Charles Carter"
+      - cell "Enabled"
+      - cell " ":
+        - button ""
+        - button ""
+    - row " Charles59 Admin Charles Carter Enabled  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "Charles59"
+      - cell "Admin"
+      - cell "Charles Carter"
+      - cell "Enabled"
+      - cell " ":
+        - button ""
+        - button ""
+    - row " takismadang Admin raina 03 Disabled  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "takismadang"
+      - cell "Admin"
+      - cell "raina 03"
+      - cell "Disabled"
+      - cell " ":
+        - button ""
+        - button ""
+- paragraph: OrangeHRM OS 5.7
+- paragraph:
+  - text: © 2005 - 2025
+  - link "OrangeHRM, Inc":
+    - /url: http://www.orangehrm.com
+  - text: . All rights reserved.
+```
